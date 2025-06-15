@@ -1,7 +1,11 @@
 <?php
 
+namespace ADT\Application;
+
+use Exception;
 use Nette\Application\UI\Presenter;
 use Nette\Localization\Translator;
+use stdClass;
 
 abstract class BasePresenter extends Presenter
 {
